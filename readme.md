@@ -1,10 +1,3 @@
-Here’s a complete `README.md` file for your **QR Code Screen Scanner** project. It includes description, features, setup, packaging, and installer info.
-
----
-
-### 📄 `README.md`
-
-````markdown
 # 📸 QRScanner - Screen QR Code Scanner
 
 QRScanner is a lightweight Python desktop application that scans the screen for QR codes and automatically opens the URL (if any) in the default browser. It features a simple and intuitive Tkinter GUI and is built for convenience — no webcam or mobile device needed!
@@ -79,7 +72,7 @@ You may see a red warning when running the `.msi` installer for the first time:
 
 ```
 📦 qr_scanner/
-├── qr_gui_scanner.py       # Main application script
+├── qr_gui.py       # Main application script
 ├── setup.py                # Installer builder with cx_Freeze
 ├── README.md               # Project documentation
 ├── icon.ico                # (Optional) App icon
@@ -90,23 +83,14 @@ You may see a red warning when running the `.msi` installer for the first time:
 
 ## 🧑‍💻 Author
 
-**Jayasimma Mahadev**
-\[Your GitHub or LinkedIn URL here]
+Name : **Jayasimma D**
+---
+Email : jayasimmamomdad@gmail.com
 
 ---
 
 ## 📄 License
 
 This project is licensed under the MIT License. See the `LICENSE` file for details.
-
-```
-
 ---
-
-Would you like me to also generate:
-- A `setup.py` with icon and shortcut support?
-- A GitHub-style project structure?
-- A `.spec` file for `pyinstaller` instead of `cx_Freeze`?
-
-Let me know how far you'd like to take this!
 ```
